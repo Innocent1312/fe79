@@ -33,11 +33,11 @@ var colors = [
 ];
 
 
-while (price === null && memory !== null && color !== null) {
+while (price === null && memory !== null && color !== null ) {
 
     color = prompt("Color?");
 
-    if (color === null) {
+    if (color === null ) {
         alert("Отмена!");
     }
 
